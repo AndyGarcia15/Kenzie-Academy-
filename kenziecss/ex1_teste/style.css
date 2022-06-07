@@ -1,0 +1,24 @@
+.titulo {
+    font-size: 40px;
+    text-align: center;
+}
+
+span{
+    color: blue;
+}
+
+.background-blue {
+    background-color: #2583ef;
+    height: 80px;
+    width: 500px;
+}
+
+
+
+
+.background-black{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    width: 500px;
+}
