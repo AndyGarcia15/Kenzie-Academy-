@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+  }
+  ul li{
+    display: inline-block;
+    display:flex;
+    
+  
+  }
+  ul li a{
+    color: white;
+    text-decoration:solid;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+  }
+

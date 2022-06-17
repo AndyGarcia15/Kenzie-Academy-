@@ -1,24 +1,27 @@
-.titulo {
-    font-size: 40px;
-    text-align: center;
+.container {
+    
+    display: flex;
+    
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+
 }
 
-span{
-    color: blue;
+.red{
+    background-color: red;
+
+}
+.blue {
+    background-color: blue;
 }
 
-.background-blue {
-    background-color: #2583ef;
-    height: 80px;
-    width: 500px;
+.green {
+    background-color: green;
 }
 
-
-
-
-.background-black{
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
-    width: 500px;
-}
