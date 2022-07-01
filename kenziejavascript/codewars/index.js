@@ -1,41 +1,53 @@
-// andy = higiene
-let andy = ['sabonete','pasta de dente', 'desodorante','shampoo','escova']
-// carlin = alimentação
-let carlin = ['carne','arroz','oleo','sal','pimenta']
-// pizi = medico
-let pizi = ['dorflex','bandagem','algodão','soro','alcool']
-// kemps = lazer 
-let kemps = ['baralho','dados','bola','video game','droga']
-// cada um leva 5 itens 
-
-
-function suprimentos(higiene,alimento,medico,lazer){
+function  calculateAge(nascimento,ano) {
     
-    let suprimentos = [higiene,alimento,medico,lazer]
+//https://www.codewars.com/kata/5761a717780f8950ce001473/train/javascript'
 
-    for(let i = 0; i< suprimentos.length;i++){
-        for(let j = 0; j < suprimentos[i].length;j++){
-            if(i == 5){
-                return console.log(suprimentos)
-            }
-            else{
-                return console.log('ta errado')
-            }
+
+
+    if( nascimento < ano && ano - nascimento != 1 ){
+        
+        return `You are ${ano - nascimento} years old.`
+    }
+
+
+    if(ano - nascimento == 1){
+     
+        `You are ${ano - nascimento} year old.`
+    }
+
+
+    else if(nascimento == ano){
+        return 'You were born this very year!'
+    }
+
+
+    else{
+        
+        return `You will be born in ${nascimento - ano} years.`
+    }
+    
+    }
+
+
+    function  calculateAge(nascimento,ano) {
+        let resultado = ano - nascimento;
+      
+        if( nascimento < ano && resultado != 1 ){
+          
+            resultado = ano - nascimento
+            return `You are ${resultado} years old.`
         }
-            
-}
-
-} 
-
-
-suprimentos(andy,carlin,pizi,kemps)
-
-
-
-
-
-
-
-
-
-
+        if(resultado == 1){
+          
+            resultado = ano - nascimento
+            `You are ${resultado} year old.`
+        }
+        else if(nascimento == ano){
+            return 'You were born this very year!'
+        }
+        else{
+            resultado = nascimento - ano
+            return `You will be born in ${resultado} years.`
+        }
+        
+        }

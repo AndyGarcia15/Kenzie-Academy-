@@ -1,16 +1,15 @@
 
 
 
-function cookingTime(eggs) {
-    // TODO
-    
-    let time = eggs * 5;
-    return console.log(time)
-
-
+    function subtracao (x,y){
+      let resultado = 0;
+      for(let i = x; i > y;i--){
+          resultado = i 
+      }
+      return resultado
   }
-  
-cookingTime(5)
+
+  console.log(subtracao(3,2))
 
 
 
